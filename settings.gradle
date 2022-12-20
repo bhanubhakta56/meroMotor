@@ -1,0 +1,3 @@
+include ':meroMotorWear'
+include ':app'
+rootProject.name = "meroMotor"

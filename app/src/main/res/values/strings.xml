@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">meroMotor</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="invalid_username">**invalid username or Password**</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="create_account">Create Account</string>
+    <string name="select_gender">Select Gender</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="others">Others</string>
+    <string name="already_a_member_login"><u>Have an Account? Login</u></string>
+    <string name="don_t_have_account_sign_up"><u>Do not have account? Sign Up</u></string>
+    <string name="edit"><u>EDIT</u></string>
+    <string name="new_order"><u>New Orders</u></string>
+    <string name="title_activity_map">Map</string>
+</resources>

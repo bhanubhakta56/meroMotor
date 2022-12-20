@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:padding="5dp"
+    android:background="#B5B3B3"
+    android:layout_height="match_parent"
+    tools:context=".fragments.AddPostFragament">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+<!--        add Company card-->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_add_company"
+            card_view:cardCornerRadius="4dp"
+            android:layout_margin="5dp"
+            card_view:cardBackgroundColor="#918C8C"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:visibility="gone"
+            card_view:cardElevation="1dp"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="15dp"
+                android:orientation="vertical"
+                android:gravity="center">
+                <ImageView
+                    android:layout_width="150dp"
+                    android:src="@drawable/add_circle"
+                    android:layout_margin="5dp"
+                    android:layout_height="150dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:textColor="#000"
+                    android:text="Be Supplier in few steps"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+<!--        add product card-->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_add_product"
+            card_view:cardCornerRadius="4dp"
+            android:layout_margin="5dp"
+            card_view:cardBackgroundColor="#918C8C"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:visibility="visible"
+            card_view:cardElevation="1dp"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="15dp"
+                android:orientation="vertical"
+                android:gravity="center">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:textColor="#000"
+                    android:text="Add New Product"/>
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:src="@drawable/add_circle"
+                    android:layout_margin="5dp"
+                    android:layout_height="200dp"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+</LinearLayout>
